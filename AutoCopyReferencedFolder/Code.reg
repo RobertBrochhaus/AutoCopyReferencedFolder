@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\AutoCopyReferencedFolder]
+@="Code"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\AutoCopyReferencedFolder\command]
+@="powershell.exe -File "C:\Users\%USERNAME%\Documents\AutoApplicationFolderCreator\Code.ps1" "%V""
